@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    font-size: 2.5em;
+    color: #000;
+}
+
+.header-text .highlight {
+    color: #00587a;
+}
+
+.header-text h3 {
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #00587a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #00587a;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.contact-info li::before {
+    content: '• ';
+    color: #00587a;
+}
+
+.job, .school {
+    margin-bottom: 15px;
+}
+
+strong {
+    font-weight: bold;
+    color: #00587a;
+}
+
+/* Skills Summary */
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    margin-bottom: 5px;
+}
+
+.bar {
+    background-color: #ddd;
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.fill {
+    height: 100%;
+    background-color: #00587a;
+    border-radius: 5px;
+}
+h2 {
+    color: #354a46;
+    }
+    footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #354a46;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    
